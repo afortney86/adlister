@@ -8,12 +8,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Please login</title>
 </head>
 <body>
     <form method="post" action="login.jsp">
         <p>
-
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="Enter Username Here">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter Password Here">
+        </p>
+        <p>
+            <button type="submit">Submit</button>
         </p>
 
 
