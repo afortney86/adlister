@@ -25,6 +25,8 @@
 <html>
 <head>
     <title>Please login</title>
+    <link href="css/main.css" rel="stylesheet">
+
 </head>
 <body>
 
