@@ -10,16 +10,6 @@ import java.io.IOException;
  */
 
 
-//<%
-//        if (request.getMethod().equalsIgnoreCase("post")) {
-//        String username = request.getParameter("username");
-//        String password = request.getParameter("password");
-//        if (username.equals("admin") && password.equals("password")) {
-//        response.sendRedirect("/profile");
-//        }
-//        }
-//        %>
-
 @WebServlet(name = "LoginServlet", urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
